@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>777</width>
+    <height>488</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>111</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>DESTINO</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="text">
+        <string>Bs As</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="text">
+        <string>Mendoza</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_3">
+       <property name="text">
+        <string>Cordoba</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>30</y>
+      <width>120</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>DIA Y HORA</string>
+    </property>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>69</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>00:00</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>13:00</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>18:00</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>69</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>LUNES</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MIERCOLES</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>VIERNES</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>30</y>
+      <width>190</width>
+      <height>349</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>BUTACAS IZQUIERDA</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QRadioButton" name="radioButton_4">
+       <property name="text">
+        <string>1V</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QRadioButton" name="radioButton_14">
+       <property name="text">
+        <string>9V</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QRadioButton" name="radioButton_15">
+       <property name="text">
+        <string>14P</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QRadioButton" name="radioButton_8">
+       <property name="text">
+        <string>18P</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QRadioButton" name="radioButton_12">
+       <property name="text">
+        <string>22P</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="0">
+      <widget class="QRadioButton" name="radioButton_11">
+       <property name="text">
+        <string>25V</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QRadioButton" name="radioButton_5">
+       <property name="text">
+        <string>13V</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QRadioButton" name="radioButton_16">
+       <property name="text">
+        <string>5V</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QRadioButton" name="radioButton_17">
+       <property name="text">
+        <string>2P</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QRadioButton" name="radioButton_13">
+       <property name="text">
+        <string>6P</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QRadioButton" name="radioButton_6">
+       <property name="text">
+        <string>10P</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QRadioButton" name="radioButton_7">
+       <property name="text">
+        <string>17V</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QRadioButton" name="radioButton_9">
+       <property name="text">
+        <string>21V</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QRadioButton" name="radioButton_10">
+       <property name="text">
+        <string>26P</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>30</y>
+      <width>190</width>
+      <height>349</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>BUTACAS DERECHA</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QRadioButton" name="radioButton_18">
+       <property name="text">
+        <string>3P</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QRadioButton" name="radioButton_19">
+       <property name="text">
+        <string>11P</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QRadioButton" name="radioButton_20">
+       <property name="text">
+        <string>16V</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QRadioButton" name="radioButton_21">
+       <property name="text">
+        <string>20V</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QRadioButton" name="radioButton_22">
+       <property name="text">
+        <string>24V</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="0">
+      <widget class="QRadioButton" name="radioButton_23">
+       <property name="text">
+        <string>27P</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QRadioButton" name="radioButton_24">
+       <property name="text">
+        <string>15P</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QRadioButton" name="radioButton_25">
+       <property name="text">
+        <string>7P</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QRadioButton" name="radioButton_26">
+       <property name="text">
+        <string>4V</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QRadioButton" name="radioButton_27">
+       <property name="text">
+        <string>8V</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QRadioButton" name="radioButton_28">
+       <property name="text">
+        <string>12V</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QRadioButton" name="radioButton_29">
+       <property name="text">
+        <string>19P</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QRadioButton" name="radioButton_30">
+       <property name="text">
+        <string>23P</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QRadioButton" name="radioButton_31">
+       <property name="text">
+        <string>28V</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>341</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>DATOS</string>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>APELLIDO</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>NOMBRE</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>DNI</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLineEdit" name="lineEdit_2"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_3"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>400</y>
+      <width>181</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>VENDER</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
